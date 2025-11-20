@@ -1,30 +1,30 @@
-# Airbnb Clone
+# Airbnb Travel & Listing App Clone -
 
 ## Overview
 
-This project is a full-stack web application developed as a clone of Airbnb using the MERN stack (MongoDB, Express.js, React.js, Node.js). It aims to replicate the core functionality of Airbnb, allowing users to search for accommodations, view details, make bookings, and manage their listings.
+Developed a full-stack vacation rental booking platform using the MERN stack(MongoDB, Express.js, React.js, Node.js), enabling users to browse properties, view details, make bookings, and manage listings. Implemented secure authentication, dynamic search, and responsive UI with real-time updates. Integrated cloud image storage and optimized API performance for a smooth user experience. 
 
 ## Getting Started
 
 1. **Clone the Repository:**
 
-   ```bash
-   git clone https://github.com/rahul4019/airbnb-clone.git
+   ```
+   git clone https://github.com/prakashverma-dev/Airbnb-clone-travel-listing.git
 
    ```
 
 2. **Install dependencies:**
 
-   Navigate to client directory and install frontend dependencies using yarn
+   Navigate to client directory and install frontend dependencies using npm
 
    ```
-   yarn install
+   npm install
    ```
 
    Similary navigate to api folder and install backend dependencies
 
    ```
-   yarn install
+   npm install
    ```
 
 3. **ENV variables:**
@@ -37,7 +37,7 @@ This project is a full-stack web application developed as a clone of Airbnb usin
 
    - create .env file in the api folder and add these variables
 
-     #### PORT= 4000
+     #### PORT= 3000
 
      #### DB_URL= your db url
 
@@ -60,11 +60,11 @@ This project is a full-stack web application developed as a clone of Airbnb usin
 4. **Run project:**
    - Open terminal, navigate to client directory and run below command to start frontend
    ```
-       yarn run dev
+       npm run dev
    ```
    - Open another terminal, navigate to api directory and run this command to start backend server
    ```
-       yarn start
+       npm start
    ```
 
 ## Features
@@ -105,3 +105,6 @@ This project is a full-stack web application developed as a clone of Airbnb usin
 - **JWT:** JSON Web Tokens for secure user authentication.
 - **Cloudinary:** Cloud-based image management for storing and serving images.
 - **Google Cloud:** For gmail based authentication
+
+## 🧑‍💻 Author
+Built with ❤️ by Prakash Verma
