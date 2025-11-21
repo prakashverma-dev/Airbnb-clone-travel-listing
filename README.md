@@ -31,7 +31,7 @@ Developed a full-stack vacation rental booking platform using the MERN stack(Mon
 
    - create .env file in the client folder and add these variables
 
-     #### VITE_BASE_URL= http://localhost:4000
+     #### VITE_BASE_URL= http://localhost:3000
 
      #### VITE_GOOGLE_CLIENT_ID= your google client id
 
